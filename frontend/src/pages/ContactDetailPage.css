@@ -1,0 +1,33 @@
+.contact-detail-back {
+  margin-bottom: 1.25rem;
+}
+
+.contact-detail-back-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.contact-detail-back-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.contact-detail-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.contact-detail-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 1rem;
+}
+
+.contact-detail-placeholder {
+  color: #64748b;
+}
