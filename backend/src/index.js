@@ -15,8 +15,8 @@ app.get('/api/health', (_req, res) => {
 });
 
 // Mount route modules here
-// const contactsRouter = require('./routes/contacts');
-// app.use('/api/contacts', contactsRouter);
+const contactsRouter = require('./routes/contacts');
+app.use('/api/contacts', contactsRouter);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
